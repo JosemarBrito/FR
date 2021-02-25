@@ -18,6 +18,4 @@ Criação de projeto para Loja virtual [Filhas do Rei](http://filhasdorei.heroku
 * Configurado 'django-admin startproject'
 * Instalar 'pipenv install gunicorn'
 * Instalar ´Heroku cli´
-* Fazer deploy e testar entrega continua
-
-concluido deploy
+* Fazer deploy e testar entrega
