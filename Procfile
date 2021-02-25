@@ -1,1 +1,1 @@
-web: gunicorn loja.wsgi --log-file -
+web: gunicorn loja.wsgi --lopipg-file -

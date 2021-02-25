@@ -1,6 +1,8 @@
 # FR
 Criação de projeto para Loja virtual "Filhas do Rei"
 
+[Filhas do Rei](http://filhasdorei.herokuapp.com/)
+
 [![Build Status](https://travis-ci.org/JosemarBrito/FR.svg?branch=main)](https://travis-ci.org/JosemarBrito/FR)
 [![Updates](https://pyup.io/repos/github/JosemarBrito/FR/shield.svg)](https://pyup.io/repos/github/JosemarBrito/FR/)
 [![Python 3](https://pyup.io/repos/github/JosemarBrito/FR/python-3-shield.svg)](https://pyup.io/repos/github/JosemarBrito/FR/)
@@ -15,3 +17,5 @@ Criação de projeto para Loja virtual "Filhas do Rei"
 * Configurar 'codecov'
 * Configurado 'django-admin startproject'
 * Instalar 'pipenv install gunicorn'
+* Instalar ´Heroku cli´
+* Fazer deploy e testar entrega continua
