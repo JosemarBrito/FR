@@ -25,7 +25,7 @@ SECRET_KEY = 'rd%!1-(1w#-7)(iot@6zty3un$vej%n$7a2_!2ngg4)m22szpm'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

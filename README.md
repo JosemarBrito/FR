@@ -7,10 +7,11 @@ Criação de projeto para Loja virtual "Filhas do Rei"
 [![codecov](https://codecov.io/gh/JosemarBrito/FR/branch/main/graph/badge.svg?token=SMYO0HTD7A)](https://codecov.io/gh/JosemarBrito/FR)
 
 
-Instalar 'pip install pipenv'
-Instalar 'pipenv install django'
-Instalar 'pipenv install --dev flake8'
-Configurar 'travis.yml'
-Configurar 'pyup.yml'
-Configurar 'codecov'
-Configurado 'django-admin startproject'
+* Instalar 'pip install pipenv'
+* Instalar 'pipenv install django'
+* Instalar 'pipenv install --dev flake8'
+* Configurar 'travis.yml'
+* Configurar 'pyup.yml'
+* Configurar 'codecov'
+* Configurado 'django-admin startproject'
+* Instalar 'pipenv install gunicorn'
