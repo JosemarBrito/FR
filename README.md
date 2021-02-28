@@ -19,3 +19,5 @@ Criação de projeto para Loja virtual [Filhas do Rei](http://filhasdorei.heroku
 * Instalar 'pipenv install gunicorn'
 * Instalar ´Heroku cli´
 * Fazer deploy e testar entrega
+* Configurado urls
+* Configurado pagina inicial
