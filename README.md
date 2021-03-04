@@ -22,4 +22,7 @@ Criação de projeto para Loja virtual [Filhas do Rei](http://filhasdorei.heroku
 * Configurado urls
 * Configurado pagina inicial
 * Instalar 'pipenv install "pytest-django"'
-* Configurado pytest
+* Configurado infra do pytest
+* Instalar 'pytest-cov'
+* Instalar codecov
+* Configurado after-sussess
