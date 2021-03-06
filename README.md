@@ -26,3 +26,5 @@ Criação de projeto para Loja virtual [Filhas do Rei](http://filhasdorei.heroku
 * Instalar 'pytest-cov'
 * Instalar codecov
 * Configurado after-sussess
+* Configuração lib 'python-decouple'
+* pipenv install 'python-decouple'
