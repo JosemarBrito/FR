@@ -31,3 +31,4 @@ Criação de projeto para Loja virtual [Filhas do Rei](http://filhasdorei.heroku
 * Configurado 'SECRET_KEY'
 * Configurado 'ALLOWED_HOSTS'
 * Configurado 'Banco de Dados'
+* Configurado 'Postgres no Travis'
