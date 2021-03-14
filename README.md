@@ -28,3 +28,5 @@ Criação de projeto para Loja virtual [Filhas do Rei](http://filhasdorei.heroku
 * Configurado after-sussess
 * Configuração lib 'python-decouple'
 * pipenv install 'python-decouple'
+* Configurado 'SECRET_KEY'
+* Configurado 'ALLOWED_HOSTS'
