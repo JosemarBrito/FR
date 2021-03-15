@@ -35,3 +35,5 @@ Criação de projeto para Loja virtual [Filhas do Rei](http://filhasdorei.heroku
 * Configurado 'Postgres no Travis'
 * Configurado 'Local e Fuso'
 * Configurado 'Mediafiles e Staticfiles'
+* Feito todas as configurações do AWS
+* Configurado 'Collectfast'
