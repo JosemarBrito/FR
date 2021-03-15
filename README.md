@@ -34,3 +34,4 @@ Criação de projeto para Loja virtual [Filhas do Rei](http://filhasdorei.heroku
 * Instalado   'pipenv install psycopg2-binary'
 * Configurado 'Postgres no Travis'
 * Configurado 'Local e Fuso'
+* Configurado 'Mediafiles e Staticfiles'
