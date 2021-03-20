@@ -37,3 +37,6 @@ Criação de projeto para Loja virtual [Filhas do Rei](http://filhasdorei.heroku
 * Configurado 'Mediafiles e Staticfiles'
 * Feito todas as configurações do AWS
 * Configurado 'Collectfast'
+* COnfigurado Banco de dados
+* Configurado ADMIN
+* Criado release no Heroku
