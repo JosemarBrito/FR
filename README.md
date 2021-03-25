@@ -40,3 +40,5 @@ Criação de projeto para Loja virtual [Filhas do Rei](http://filhasdorei.heroku
 * COnfigurado Banco de dados
 * Configurado ADMIN
 * Criado release no Heroku
+* Configurado backup do postgres no heroku
+* Configurado debug_toolbar
