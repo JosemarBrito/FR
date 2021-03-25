@@ -5,5 +5,5 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse('<h1>Filhas do Rei, o melhor lugar para você compras suas roupas evangelicas'
-                        'Venha conferir</h1>')
+    return HttpResponse(
+        '<html><body><h1>Bem vindo Django</h1></body></html>', content_type='text/html')
