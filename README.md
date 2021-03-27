@@ -42,4 +42,11 @@ Criação de projeto para Loja virtual [Filhas do Rei](http://filhasdorei.heroku
 * Criado release no Heroku
 * Configurado backup do postgres no heroku
 * Configurado debug_toolbar
-Configurado Sentry.
+Configurado Sentry
+  
+_______
+
+Configuração da Landingpage
+
+[https://getbootstrap.com/](Bootstrap)
+[https://www.layoutit.com/pt](Layoutit)
