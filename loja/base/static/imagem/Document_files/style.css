@@ -26,7 +26,7 @@ body {
 }
 
 .insta-phone {
-    display: flex;
+    display: flex;   
     align-items: center;
     justify-content: center;
     width: 50%;
@@ -56,22 +56,13 @@ body {
         border: 1px solid lightgrey;
 }
 
-.grupo1 {
-    display: flex;
-    align-items: center;
-    padding: 1.3rem 0;
-    width: 50px;
-    height: 50px;
-    justify-content: space-around;
-}
-
 .grupo:nth-child(1) {
     min-height: 19rem;
 }
 
-.grupo img {
-    height: 2rem;
-
+.grupo nav img {
+    align-items: center;
+    height: 4rem;
 
 }
 
@@ -101,7 +92,7 @@ body {
 }
 
 .link-blue {
-    color: red;
+    color: #0095f6;
 }
 
 .app {
@@ -162,3 +153,35 @@ body {
         border: 1px solid transparent;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

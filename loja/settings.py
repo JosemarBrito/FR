@@ -17,8 +17,6 @@ from pathlib import Path
 import dj_database_url
 from decouple import config, Csv
 
-import sentry_sdk
-from sentry_sdk.integrations.django import DjangoIntegration
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -131,9 +129,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-# Confuguração de ambiente de desenvolvimento
+# Configuração de ambiente de desenvolvimento
 
-STATIC_URL = '/static/'
+STATIC_URL = '/staticfiles/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
@@ -146,7 +144,7 @@ AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 # STORAGE CONFIGURATION IN 3S AWS
 # _______________________________________________________________________________
 
-if AWS_ACCESS_KEY_ID:
+if AWS_ACCESS_KEY_ID:  # pragma: no cover
     AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
     AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')
     AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age=86400', }
@@ -158,10 +156,10 @@ if AWS_ACCESS_KEY_ID:
     COLLECTFAST_ENABLED = True
     COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
 
-    # Static Assert
+    # Static Assets
     # ____________________________________________________________________________
     STATICFILES_STORAGE = 's3_folder_storage.s3.StaticStorage'
-    STATIC_S3_PATH = 'static'
+    STATIC_S3_PATH = 'staticfiles'
     STATIC_ROOT = f'/{STATIC_S3_PATH}/'
     STATIC_URL = f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{STATIC_S3_PATH}/'
     ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
@@ -175,10 +173,3 @@ if AWS_ACCESS_KEY_ID:
 
     INSTALLED_APPS.append('s3_folder_storage')
     INSTALLED_APPS.append('storages')
-
-SENTRY_DSN = config('SENTRY_DSN', default=None)
-
-if SENTRY_DSN:
-
-    sentry_sdk.init(
-        dsn=SENTRY_DSN, integrations=[DjangoIntegration()])

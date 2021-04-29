@@ -50,3 +50,4 @@ Configuração da Landingpage
 
 [https://getbootstrap.com/](Bootstrap)
 [https://www.layoutit.com/pt](Layoutit)
+configurado html
